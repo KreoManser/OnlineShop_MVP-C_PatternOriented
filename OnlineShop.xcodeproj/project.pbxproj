@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AD9259D2998E22400CA41E5 /* CatalogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9259C2998E22400CA41E5 /* CatalogService.swift */; };
+		0A047926299A6D6D00038E12 /* CatalogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A047925299A6D6D00038E12 /* CatalogService.swift */; };
 		0AD925A02998E2C100CA41E5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9259F2998E2C100CA41E5 /* Product.swift */; };
 		0AD925A22998E3EF00CA41E5 /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD925A12998E3EF00CA41E5 /* CatalogPresenter.swift */; };
 		0AD925A42998EA6C00CA41E5 /* ShoppingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD925A32998EA6C00CA41E5 /* ShoppingCoordinator.swift */; };
@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AD9259C2998E22400CA41E5 /* CatalogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CatalogService.swift; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/201/OnlineShop/OnlineShop/Services/CatalogService.swift"; sourceTree = "<group>"; };
+		0A047925299A6D6D00038E12 /* CatalogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogService.swift; sourceTree = "<group>"; };
 		0AD9259F2998E2C100CA41E5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		0AD925A12998E3EF00CA41E5 /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
 		0AD925A32998EA6C00CA41E5 /* ShoppingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCoordinator.swift; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				AE62A6E72997C60E00276B3A /* AuthorizationService.swift */,
-				0AD9259C2998E22400CA41E5 /* CatalogService.swift */,
+				0A047925299A6D6D00038E12 /* CatalogService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -227,6 +227,7 @@
 			files = (
 				AE62A6F32997D48800276B3A /* CatalogViewController.swift in Sources */,
 				AE62A6ED2997CB8C00276B3A /* LoginPresenter.swift in Sources */,
+				0A047926299A6D6D00038E12 /* CatalogService.swift in Sources */,
 				0AD925A82998EFE400CA41E5 /* CatalogUIExtensions.swift in Sources */,
 				AE62A6E52997C51800276B3A /* AppCoordinator.swift in Sources */,
 				0AD925A42998EA6C00CA41E5 /* ShoppingCoordinator.swift in Sources */,
@@ -239,7 +240,6 @@
 				0AD925AA2999600C00CA41E5 /* DetailPresenter.swift in Sources */,
 				AE62A6EB2997CB8200276B3A /* LoginViewController.swift in Sources */,
 				AE62A6E82997C60E00276B3A /* AuthorizationService.swift in Sources */,
-				0AD9259D2998E22400CA41E5 /* CatalogService.swift in Sources */,
 				0AD925A62998EB5600CA41E5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +399,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.kreomanser.OnlineShop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.azigangaraev.OnlineShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -429,7 +429,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.kreomanser.OnlineShop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.azigangaraev.OnlineShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
